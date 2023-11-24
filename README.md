@@ -8,6 +8,7 @@
 - addStudent(): Adds a new student record.
 - updateStudentEmail(): Updates the email address for a specified student.
 - deleteStudent(): Deletes the record of a specified student.
+- main(): Connects to the database and runs the functions above.
 
 # Getting started
 1. Clone repository
@@ -19,5 +20,5 @@
 4. Run the application.
 
 # Video Demonstration 
-- Link to the video demonstration: 
+- Link to the video demonstration: https://youtu.be/4_4hQW3H5xI
    
