@@ -9,7 +9,7 @@ public class Application {
     // Database connection variables
     private static String url = "jdbc:postgresql://127.0.0.1/studentstable";
     private static String user = "postgres";
-    private static String password = "Karachi1!";
+    private static String password = "password";
 
     public static void getAllStudents(Connection connection) {
         // JDBC variables
@@ -165,10 +165,10 @@ public class Application {
                 System.out.println("Connected to the PostgreSQL database!");
 
                 // Calls all methods
+                //addStudent(connection,"Sam","Smith","sam@gmail.com",java.sql.Date.valueOf("2023-01-01"));
+                //updateStudentEmail(connection, 1, "updated.email.gmail.com");
+                //deleteStudent(connection,1);
                 getAllStudents(connection);
-                addStudent(connection,"Sam","Smith","sam@gmail.com",java.sql.Date.valueOf("2023-01-01"));
-                updateStudentEmail(connection, 1, "updated.email.gmail.com");
-                deleteStudent(connection,1);
             } else {
                 System.out.println("Failed to connect to the database!");
             }
